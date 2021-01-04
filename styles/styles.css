@@ -1,0 +1,20 @@
+
+body {
+    font-family: 'Merriweather', serif;
+  }
+
+@media screen and (min-width: 61.5625em) {
+	body:not(.search-results) article:not(.type-page) .wp-block-image figcaption.below-entry-meta {
+		clear: both;
+		display: block;
+		float: none;
+		margin-right: 0;
+		margin-left: -40%;
+		max-width: 140%;
+	}
+
+	body.rtl:not(.search-results) article:not(.type-page) .wp-block-image figcaption.below-entry-meta {
+		margin-left: 0;
+		margin-right: -40%;
+	}
+}
