@@ -30,3 +30,18 @@ figcaption{
 .has-large-font-size{
 	font-size: x-large;
 }
+
+a:link{
+	color:rgb(0, 141, 197);
+	text-decoration: none;
+}
+
+a:hover{
+	color:rgb(0, 84, 117);
+	text-decoration: underline;
+}
+
+a:visited{
+	color:rgb(0, 116, 116);
+	text-decoration: none;
+}
